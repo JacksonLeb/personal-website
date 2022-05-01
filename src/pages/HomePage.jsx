@@ -3,7 +3,7 @@ import ProfilePicPlanet from '../components/ProfilePicPlanet'
 
 function HomePage() {
   return (
-    <div className='homePage'>
+    <div className='homePage h-screen'>
         <ProfilePicPlanet className='profilePicPlanet'/>
     </div>
   )
