@@ -20,6 +20,31 @@ body {
   animation-fill-mode: both;
 }
 
+.courseworkText {
+  animation-duration: 5s;
+  animation-name: coursework;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.courseworkRotationPoint {
+  animation-duration: 5s;
+  animation-name: courseworkRotationPoint;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.sunText {
+  bottom: 100px;
+  left: 40px;
+}
+
+.header {
+  font-family: "Apple SD Gothic Neo";
+}
+
 
 @keyframes jacksonleb {
   0%{
@@ -32,7 +57,38 @@ body {
   }
 }
 
+.courseworkPlanet {
+  left: -185px;
+  top: -145px;
+}
 
+.courseworkRotationPoint {
+  left: -105px;
+  top: 15px;
+}
+
+
+@keyframes coursework {
+  0%{
+    transform: rotate(0);
+    transform-origin: right;
+  }
+  100%{
+    transform: rotate(360deg);
+    transform-origin: right;
+  }
+}
+
+@keyframes courseworkRotationPoint {
+  0%{
+    transform: rotate(0);
+    transform-origin: center;
+  }
+  100%{
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}
 
 
 

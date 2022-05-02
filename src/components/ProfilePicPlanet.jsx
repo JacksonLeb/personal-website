@@ -4,15 +4,11 @@ import JacksonLebText from '../svgs/JacksonLebText.svg'
 
 function ProfilePicPlanet() {
   return (
-    <div>
-        <div>
-            <img className='nameText' src={JacksonLebText} alt='jackson-leb' />
-        </div>
-        <div>
-            <img src={ProfilePic} alt='profile-pic' />
-        </div>
-        
+    <div className=''>
+      <img src={ProfilePic} alt='profile-pic' className='w-20 h-16'/>
+      <img src={JacksonLebText} alt='Jackson Leb' className='sunText relative w-20 h-16 nameText'/>
     </div>
+    
   )
 }
 
