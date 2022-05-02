@@ -24,29 +24,40 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  border: 1px solid white;
   transform: translate(-50%, -50%);
 }
 
-.sunTextOrbit {
-  width: 160px;
-  height: 140px;
+
+.aboutPlanet {
+  width: 320px;
+  height: 320px;
   position: absolute;
   left: 50%;
   top: 50%;
-  border: 1px solid white;
-  animation: sunTextOrbit 3s infinite linear;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
+  animation: aboutPlanetOrbit 20s infinite linear;
+  border: .1px solid white;
+  border-radius: 50%;
+}
+
+.aboutIcon {
+  width: 20px;
+  height: 20px;
+  transform: translate(400%, 15%);
+  position: relative;
+  text-align: center;
 }
 
 
-/*
-@keyframes sunTextOrbit {
+
+
+@keyframes aboutPlanetOrbit {
   0% {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -25%) rotate(-360deg);
   }
 }
-*/
+
+
 
 
 
