@@ -7,6 +7,12 @@ import ProjectsPlanet from '../components/ProjectsPlanet'
 function HomePage() {
   return (
     <div className='homePage'>
+
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <div id='title'>
+      </div>
       <ProjectsPlanet />
       <div className='outterRing'>
         <ExperiencePlanet />
