@@ -2,94 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #1E2226;
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.nameText {
-  animation-duration: 5s;
-  animation-name: jacksonleb;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+.sun {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  text-align: center;
 }
 
-.courseworkText {
-  animation-duration: 5s;
-  animation-name: coursework;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+.profilePic {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 1px solid white;
+  transform: translate(-50%, -50%);
 }
 
-.courseworkRotationPoint {
-  animation-duration: 5s;
-  animation-name: courseworkRotationPoint;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-}
-
-.sunText {
-  bottom: 100px;
-  left: 40px;
-}
-
-.header {
-  font-family: "Apple SD Gothic Neo";
+.sunTextOrbit {
+  width: 160px;
+  height: 140px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 1px solid white;
+  animation: sunTextOrbit 3s infinite linear;
+  transform: translate(-50%, -50%);
 }
 
 
-@keyframes jacksonleb {
-  0%{
-    transform: rotate(0);
-    transform-origin: bottom left;
-  }
-  100%{
-    transform: rotate(360deg);
-    transform-origin: bottom left;
+/*
+@keyframes sunTextOrbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
-
-.courseworkPlanet {
-  left: -185px;
-  top: -145px;
-}
-
-.courseworkRotationPoint {
-  left: -105px;
-  top: 15px;
-}
-
-
-@keyframes coursework {
-  0%{
-    transform: rotate(0);
-    transform-origin: right;
-  }
-  100%{
-    transform: rotate(360deg);
-    transform-origin: right;
-  }
-}
-
-@keyframes courseworkRotationPoint {
-  0%{
-    transform: rotate(0);
-    transform-origin: center;
-  }
-  100%{
-    transform: rotate(360deg);
-    transform-origin: center;
-  }
-}
-
+*/
 
 
 
