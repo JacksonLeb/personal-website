@@ -5,6 +5,7 @@
 .homePage {
   width: 100vw;
   height: 100vh;
+  margin-top: -20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,37 +26,110 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 
 .aboutPlanet {
-  width: 320px;
-  height: 320px;
+  width: 260px;
+  height: 260px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -25%);
-  animation: aboutPlanetOrbit 20s infinite linear;
-  border: .1px solid white;
+  animation: aboutPlanetOrbit 15s infinite linear;   
+  border: 1px solid #4B52ED;
   border-radius: 50%;
 }
 
 .aboutIcon {
-  width: 20px;
-  height: 20px;
-  transform: translate(400%, 15%);
+  width: 40px;
+  height: 40px;
+  transform: translate(100%, 15%);
   position: relative;
+  text-align: center;
+  color: #4B52ED;
+}
+
+.aboutIcon:hover {
+  opacity: 0.5;
+}
+
+.experiencePlanet {
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -33%);
+  animation: experiencePlanetOrbit 25s infinite linear;   
+  border: 1px solid #4B52ED;
+  border-radius: 50%;
   text-align: center;
 }
 
+.rocketIcon {
+  width: 40px;
+  height: 40px;
+  left: 80%;
+  top: 10%;
+  position: relative;
+  text-align: center;
+  color: #4B52ED;
+}
 
+.rocketIcon:hover {
+  opacity: 0.5;
+}
 
+.projectsPlanet {
+  width: 615px;
+  height: 615px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -39%);
+  animation: projectsPlanetOrbit 35s infinite linear;   
+  border: 1px solid #4B52ED;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.meteorIcon {
+  width: 40px;
+  height: 40px;
+  left: 80%;
+  top: 10%;
+  position: relative;
+  text-align: center;
+  color: #4B52ED;
+}
+
+.meteorIcon:hover {
+  opacity: 0.5;
+}
 
 @keyframes aboutPlanetOrbit {
   0% {
     transform: translate(-50%, -25%) rotate(-360deg);
   }
 }
+
+@keyframes experiencePlanetOrbit {
+  0% {
+    transform: translate(-50%, -33%) rotate(360deg);
+  }
+}
+
+@keyframes projectsPlanetOrbit {
+  0% {
+    transform: translate(-50%, -39%) rotate(-360deg);
+  }
+}
+
+
+
+
 
 
 
