@@ -1,8 +1,11 @@
 import React from 'react'
+import Stars from '../components/Stars'
 
 function Experience() {
   return (
-    <div>Experience</div>
+    <div className='experiencePage'>
+        <Stars />
+    </div>
   )
 }
 

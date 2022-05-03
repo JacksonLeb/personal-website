@@ -10,7 +10,7 @@ function App() {
   return <>
     <Router>
       <div className='h-full absolute left-0 w-full overflow-hidden bg-space-grey'>
-        <Header />
+        <Header className='header'/>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<About />} />

@@ -1,8 +1,11 @@
 import React from 'react'
+import Stars from '../components/Stars'
 
 function About() {
   return (
-    <div>About</div>
+    <div className='aboutPage'>
+        <Stars />
+    </div>
   )
 }
 
