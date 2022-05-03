@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Link } from 'react-router-dom';
+import { GithubProvider } from './context/github/GithubContext';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import About from './pages/About';
@@ -9,6 +10,7 @@ import Experience from './pages/Experience';
 
 function App() {
   return <>
+  <GithubProvider>
     <Router>
       <div className='pageContainer absolute h-full left-0 w-full overflow-hidden bg-space-grey'>
         <Header className='header'/>
@@ -20,6 +22,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </GithubProvider>
   </>
 }
 

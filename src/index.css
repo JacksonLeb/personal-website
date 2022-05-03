@@ -12,8 +12,22 @@
   align-items: center;
 }
 
-.header {
-  transform: translate(0%, 0%);
+.spinner {
+  z-index: 99;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.headerMain {
+  display: inline;
+}
+.headerMain:hover{
+  color: white;
+}
+
+h1:hover ~ h3{
+  color: white;
 }
 
 .sun {
