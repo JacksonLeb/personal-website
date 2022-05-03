@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.header {
+  transform: translate(0%, 0%);
+}
+
 .sun {
   width: 200px;
   height: 200px;
@@ -183,6 +187,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-

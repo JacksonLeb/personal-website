@@ -6,7 +6,7 @@ function AboutPlanet() {
   return (
     <div className='aboutPlanet'>
       <Link to='/about'>
-        <img src={AboutIcon} alt='astronaut' className='aboutIcon'/>
+        <img src={AboutIcon} alt='astronaut' className='aboutIcon pointer-events-auto'/>
       </Link>
     </div>
   )

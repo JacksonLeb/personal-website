@@ -6,7 +6,7 @@ function ProjectsPlanet() {
   return (
     <div className='projectsPlanet'>
         <Link to='/projects'>
-            <img src={ProjectsIcon} alt='meteor' className='meteorIcon'/>
+            <img src={ProjectsIcon} alt='meteor' className='meteorIcon pointer-events-auto'/>
         </Link>
     </div>
   )

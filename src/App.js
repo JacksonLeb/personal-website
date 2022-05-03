@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import About from './pages/About';
@@ -9,7 +10,7 @@ import Experience from './pages/Experience';
 function App() {
   return <>
     <Router>
-      <div className='h-full absolute left-0 w-full overflow-hidden bg-space-grey'>
+      <div className='pageContainer absolute h-full left-0 w-full overflow-hidden bg-space-grey'>
         <Header className='header'/>
         <Routes>
           <Route path='/' element={<HomePage />} />

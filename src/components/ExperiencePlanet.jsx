@@ -6,7 +6,7 @@ function ExperiencePlanet() {
   return (
     <div className='experiencePlanet'>
       <Link to='/experience'>
-        <img src={RocketIcon} alt='rocket' className='rocketIcon'/>
+        <img src={RocketIcon} alt='rocket' className='rocketIcon pointer-events-auto'/>
       </Link>
     </div>
   )

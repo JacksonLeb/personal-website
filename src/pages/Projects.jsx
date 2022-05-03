@@ -3,7 +3,7 @@ import Stars from '../components/Stars'
 
 function Projects() {
   return (
-    <div className='projectsPage'>
+    <div className='projectsPage pointer-events-none'>
         <Stars />
     </div>
   )

@@ -7,7 +7,7 @@ import Stars from '../components/Stars'
 
 function HomePage() {
   return (
-    <div className='homePage'>
+    <div className='homePage pointer-events-none'>
       <Stars />
       <ProjectsPlanet />
       <div className='outterRing'>
