@@ -59,17 +59,58 @@ function Projects() {
   }
 
   return (
-    <div className='projectsPage pointer-events-none'>
+    <div className='projectsPage pointer-events-none h-full'>
         <Stars />
-        <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8'>
-            <div className='custom-card-image mb-6 md:mb-0'>
-                <div className='rounded-xl'>
-                  <a href={html_url} className='pointer-events-auto'>
-                    <img src={avatar_url} alt='profile' className='rounded-full'/>
-                  </a>
+          <a href={html_url} className='pointer-events-auto'>
+            <img src={avatar_url} alt='profile' className='rounded-3xl m-auto mt-5 h-1/4'/>
+          </a>
+          <div className='statsBar w-3/4 relative py-5 my-4 rounded-lg stats'>
+            <div className='stat'>
+                <div className='stat-figure text-secondary'>
+                    <FaUsers className='text-3xl md:text-5xl' />
+                </div>
+                <div className='stat-title pr-5'>
+                    Followers
+                </div>
+                <div className='stat-value pr-5 text-3xl md:text-4xl'>
+                    {followers}
+                </div>
+            </div>
+            <div className='stat'>
+                <div className='stat-figure text-secondary'>
+                    <FaUserFriends className='text-3xl md:text-5xl' />
+                </div>
+                <div className='stat-title pr-5'>
+                    Following
+                </div>
+                <div className='stat-value pr-5 text-3xl md:text-4xl'>
+                    {following}
+                </div>
+            </div>
+            <div className='stat'>
+                <div className='stat-figure text-secondary'>
+                    <FaCodepen className='text-3xl md:text-5xl' />
+                </div>
+                <div className='stat-title pr-5'>
+                    Public Repos
+                </div>
+                <div className='stat-value pr-5 text-3xl md:text-4xl'>
+                    {public_repos}
+                </div>
+            </div>
+            <div className='stat'>
+                <div className='stat-figure text-secondary'>
+                    <FaStore className='text-3xl md:text-5xl' />
+                </div>
+                <div className='stat-title pr-5'>
+                    Public Gists
+                </div>
+                <div className='stat-value pr-5 text-3xl md:text-4xl'>
+                    {public_gists}
                 </div>
             </div>
         </div>
+        <RepoList repos={repos} />
     </div>
   )
 }

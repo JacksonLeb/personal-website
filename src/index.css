@@ -196,6 +196,10 @@ background: transparent url(http://www.script-tutorials.com/demos/360/images/sta
 z-index: 0;
 }
 
+.statsBar {
+  margin-left: 14%;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
