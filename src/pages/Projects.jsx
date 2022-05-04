@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useContext } from 'react'
-import {FaGithubSquare, FaCode, FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
-import { Link, useParams } from 'react-router-dom'
+import {FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
+import { useParams } from 'react-router-dom'
 import GithubContext from '../context/github/GithubContext'
 import { getUser, getUserRepos } from '../context/github/GithubActions'
 import Stars from '../components/Stars'
@@ -29,7 +29,7 @@ function Projects() {
       dispatch({type: 'GET_REPOS', payload: userRepoData})
     }
     getUserData()
-  }, [])
+  })
 
 
   const {
@@ -65,7 +65,7 @@ function Projects() {
   }
 
   return (
-    <div className='projectsPage pointer-events-none h-full overflow-auto'>
+    <div className='projectsPage pointer-events-none h-full'>
         <Stars />
         <div className='projectsHeader'>
           <h1 className='text-good-blue font-bold text-3xl ml-2 mt-2'>Projects</h1>
