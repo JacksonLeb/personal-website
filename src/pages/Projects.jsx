@@ -29,7 +29,7 @@ function Projects() {
       dispatch({type: 'GET_REPOS', payload: userRepoData})
     }
     getUserData()
-  })
+  }, [dispatch, params.login])
 
 
   const {
