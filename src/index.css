@@ -213,9 +213,32 @@ z-index: 0;
   margin-right: 5%;
 }
 
+.experienceHeader {
+  width: 90%;
+  height: 350px;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+.skillsCoursework {
+  width: 97%;
+  height: 175px;
+}
+
+.bottomExpCards {
+  margin-left: 5%;
+  margin-right: 3.5%;
+}
+
 .githubPic {
   height: 15%;
   width: 15%;
+}
+
+.aboutPic {
+  height: 100%;
+  width: 200px;
 }
 
 .githubPic:hover {
@@ -235,6 +258,36 @@ z-index: 0;
 .hotButtons svg:hover {
   color: white;
 }
+
+.positionItem {
+  height: 200px;
+  white-space: pre-line;
+}
+
+.courseItem {
+  height: 15%;
+}
+
+.aboutmeHead {
+  place-self: center;
+  height: 50px;
+}
+
+.aboutHeader {
+  width: 90%;
+  height: 550px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.picBanner {
+  border-radius: 15%;
+}
+
+.picGrid {
+  height: 40%;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
