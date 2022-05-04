@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { Link } from 'react-router-dom';
 import { GithubProvider } from './context/github/GithubContext';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';

@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaAtom } from 'react-icons/fa'
 
 function CourseItem({ title, link }) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaIdBadge, FaBuilding, FaClock, FaAlignJustify, FaCameraRetro } from 'react-icons/fa'
+import { FaIdBadge, FaBuilding, FaClock} from 'react-icons/fa'
 
 function RepoItem({ position, employer, time, description, media }) {
 

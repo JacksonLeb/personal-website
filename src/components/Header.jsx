@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link, Router} from 'react-router-dom'
 import { FaEnvelope, FaLinkedin, FaFile } from 'react-icons/fa'
 import Resume from '../assets/Leb, Jackson.pdf'
 
