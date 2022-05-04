@@ -1,10 +1,6 @@
 import React from 'react'
 import Stars from '../components/Stars'
-import { Link } from 'react-router-dom'
-import Header from '../svgs/Header.png'
 import FirstPic from '../assets/firstLect.jpeg'
-import SecondPic from '../assets/secondLect.jpeg'
-import ThirdPic from '../assets/thirdLect.jpeg'
 
 function About() {
   return (

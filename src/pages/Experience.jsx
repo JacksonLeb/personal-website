@@ -3,7 +3,6 @@ import Stars from '../components/Stars'
 import PositionItem from '../components/experience/PositionItem.jsx'
 import SkillItem from '../components/experience/SkillItem'
 import CourseItem from '../components/experience/CourseItem'
-import { Link } from 'react-router-dom'
 
 function Experience({skills}) {
 

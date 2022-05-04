@@ -33,20 +33,11 @@ function Projects() {
 
 
   const {
-    name,
-    type,
-    avatar_url,
-    location,
-    bio,
-    blog,
-    twitter_username,
-    login,
     html_url,
     followers,
     following,
     public_repos,
     public_gists,
-    hireable,
   } = user
   console.log("USER")
   console.log(user)
