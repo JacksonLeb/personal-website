@@ -65,7 +65,7 @@ function Projects() {
   }
 
   return (
-    <div className='projectsPage pointer-events-none h-full'>
+    <div className='projectsPage pointer-events-none h-full overflow-auto'>
         <Stars />
         <div className='projectsHeader'>
           <h1 className='text-good-blue font-bold text-3xl ml-2 mt-2'>Projects</h1>
