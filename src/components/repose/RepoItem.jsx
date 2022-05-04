@@ -16,11 +16,10 @@ function RepoItem({ repo }) {
 
   return (
     <div className='mb-2 mx-2 rounded-md card bg-gray-800 hover:bg-gray-900'>
+        <a href={html_url}>
         <div className='card-body'>
             <h3 className='mb-2 text-xl font-semibold'>
-                <a href={html_url}>
                     <FaLink className='inline mr-1' /> {name}
-                </a>
             </h3>
             <p className='mb-3'>
                 {description}
@@ -40,6 +39,7 @@ function RepoItem({ repo }) {
                 </div>
             </div>
         </div>
+        </a>
     </div>
   )
 }

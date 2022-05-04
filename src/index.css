@@ -42,7 +42,7 @@ h1:hover ~ h3{
   height: 100px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
@@ -226,6 +226,15 @@ z-index: 0;
   text-align: center;
 }
 
+.hotButtons {
+  width: 280px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.hotButtons svg:hover {
+  color: white;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
