@@ -1,12 +1,13 @@
 import React from 'react'
 import { useEffect, useContext } from 'react'
-import {FaCode, FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
+import {FaGithubSquare, FaCode, FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa'
 import { Link, useParams } from 'react-router-dom'
 import GithubContext from '../context/github/GithubContext'
 import { getUser, getUserRepos } from '../context/github/GithubActions'
 import Stars from '../components/Stars'
 import Spinner from '../components/Spinner'
 import RepoList from '../components/repose/RepoList'
+import GithubAvatar from '../svgs/githubAvatar.png'
 
 function Projects() {
 
@@ -47,7 +48,12 @@ function Projects() {
     public_gists,
     hireable,
   } = user
-  console.log(name)
+  console.log("USER")
+  console.log(user)
+  console.log("loading")
+  console.log(loading)
+  console.log("repos")
+  console.log(repos)
 
   if(loading) {
     return  (
@@ -61,10 +67,15 @@ function Projects() {
   return (
     <div className='projectsPage pointer-events-none h-full'>
         <Stars />
+        <div className='projectsHeader'>
+          <h1 className='text-good-blue font-bold text-3xl ml-2 mt-2'>Projects</h1>
+        </div>
+        <div className='relative'>
           <a href={html_url} className='pointer-events-auto'>
-            <img src={avatar_url} alt='profile' className='rounded-3xl m-auto mt-5 h-1/4'/>
+            <img src={GithubAvatar} alt='profile' className='githubPic relative rounded-3xl m-auto mt-5 h-1/4'/>
           </a>
-          <div className='statsBar w-3/4 relative py-5 my-4 rounded-lg stats'>
+        </div>
+          <div className='statsBar py-5 my-4 rounded-lg stats overflow-auto pointer-events-auto'>
             <div className='stat'>
                 <div className='stat-figure text-secondary'>
                     <FaUsers className='text-3xl md:text-5xl' />
@@ -110,7 +121,7 @@ function Projects() {
                 </div>
             </div>
         </div>
-        <RepoList repos={repos} />
+        <RepoList repos={repos} className='pointer-events-auto'/>
     </div>
   )
 }

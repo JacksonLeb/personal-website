@@ -18,18 +18,19 @@ export const getUser = async () => {
 }
 
 //get personal repos
-export const getUserRepos = async (login) => {
+export const getUserRepos = async () => {
     const params = new URLSearchParams({
         sort: 'created',
         per_page: 10,
     })
 
-    const response = await fetch(`${GITHUB_URL}/users/${login}/repos?${params}`, {
+    const response = await fetch(`${GITHUB_URL}/users/JacksonLeb/repos?${params}`, {
         hearders: {
             Authorization: `token ${GITHUB_TOKEN}`
         },
     })
-
+    console.log("DATA")
+    console.log(response)
     const data = await response.json()
 
     return data

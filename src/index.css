@@ -191,13 +191,39 @@ height:100%;
 display:block;
 }
 
+/*
+Shoutout to this guy on Codepen for the awesome star graphics
+*/
 .stars {
 background: transparent url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
 z-index: 0;
 }
 
 .statsBar {
-  margin-left: 14%;
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.repoHeader {
+  width: 90%;
+  height: 270px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.githubPic {
+  height: 15%;
+  width: 15%;
+}
+
+.githubPic:hover {
+  opacity: 0.75;
+}
+
+.projectsHeader {
+  text-align: center;
 }
 
 
