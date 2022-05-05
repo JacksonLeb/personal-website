@@ -16,7 +16,7 @@ function Experience({skills}) {
           <h1 className='text-good-blue relative font-bold text-3xl ml-2 mt-2'>Experience</h1>
         </div>
         <div className='rounded-lg mt-2 card bg-base-100 pointer-events-auto experienceHeader'>
-          <div className='card-body overflow-auto'>
+          <div className='card-body'>
             <h2 className='text-3xl mt-0 font-bold'>
               Positions
             </h2>
@@ -93,8 +93,8 @@ function Experience({skills}) {
           </div>
         </div>
         <div className='grid grid-cols-2 bottomExpCards'>
-          <div className='rounded-lg mt-2 card bg-base-100 pointer-events-auto skillsCoursework'>
-            <div className='card-body overflow-auto'>
+          <div className='rounded-lg mt-2 card bg-base-100 skills skillsCoursework'>
+            <div className='card-body'>
               <h3 className='text-xl mt-0 font-bold'>
                 Skills
               </h3>
@@ -106,7 +106,7 @@ function Experience({skills}) {
             </div>
           </div>
           <div className='rounded-lg mt-2 card bg-base-100 pointer-events-auto skillsCoursework'>
-            <div className='card-body overflow-auto'>
+            <div className='card-body'>
               <h3 className='text-xl mt-0 font-bold'>
                 Coursework
               </h3>

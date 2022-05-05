@@ -4,7 +4,7 @@ import { FaIdBadge, FaBuilding, FaClock} from 'react-icons/fa'
 function RepoItem({ position, employer, time, description, media }) {
 
   return (
-    <div className='positionItem mb-2 mx-2 rounded-md card bg-gray-800 overflow-auto'>
+    <div className='positionItem mb-2 mx-2 rounded-md card bg-gray-800'>
         <div className='card-body w-full ml-0 inline'>
             <h3 className='mb-2 text-xl font-semibold'>
                 <div className='mr-2 badge badge-warning badge-xlg'>

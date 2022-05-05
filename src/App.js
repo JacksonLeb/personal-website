@@ -11,7 +11,7 @@ function App() {
   return <>
   <GithubProvider>
     <Router>
-      <div className='pageContainer absolute h-full left-0 w-full overflow-hidden bg-space-grey'>
+      <div className='pageContainer h-full left-0 w-full bg-space-grey'>
         <Header className='header'/>
         <Routes>
           <Route path='/' element={<HomePage />} />

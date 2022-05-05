@@ -5,7 +5,7 @@ import RepoItem from './RepoItem'
 function RepoList({ repos }) {
   return (
     <div className='rounded-lg card bg-base-100 pointer-events-auto repoHeader'>
-        <div className='card-body overflow-auto'>
+        <div className='card-body'>
             <h2 className='text-3xl my-4 font-bold'>
                 Latest Repositories
             </h2>

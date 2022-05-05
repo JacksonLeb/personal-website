@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.aboutPage {
+  height: 100%;
+}
+
 .spinner {
   z-index: 99;
   position: absolute;
@@ -208,14 +212,15 @@ z-index: 0;
 
 .repoHeader {
   width: 90%;
-  height: 35%;
+  height: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .experienceHeader {
   width: 90%;
-  height: 350px;
   margin-left: 5%;
   margin-right: 5%;
   
@@ -223,7 +228,11 @@ z-index: 0;
 
 .skillsCoursework {
   width: 97%;
-  height: 175px;
+  height: 70%;
+}
+
+.skills {
+  height: 50%;
 }
 
 .bottomExpCards {
@@ -251,8 +260,12 @@ z-index: 0;
 
 .hotButtons {
   width: 280px;
-  margin-left: 40px;
+  margin-left: 0px;
   margin-right: auto;
+}
+
+.hotButtons a{
+  margin-left: 40%;
 }
 
 .hotButtons svg:hover {
@@ -260,7 +273,9 @@ z-index: 0;
 }
 
 .positionItem {
-  height: 200px;
+  height: 95%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   white-space: pre-line;
 }
 
@@ -270,12 +285,13 @@ z-index: 0;
 
 .aboutmeHead {
   place-self: center;
-  height: 50px;
+  height: 7%;
 }
 
 .aboutHeader {
   width: 90%;
-  height: 550px;
+  height: 95%;
+  margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
 }

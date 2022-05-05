@@ -4,9 +4,9 @@ import FirstPic from '../assets/firstLect.jpeg'
 
 function About() {
   return (
-    <div className='aboutPage pointer-events-none'>
+    <div className='aboutPage pointer-events-none overflow-auto'>
         <Stars />
-        <div className='rounded-lg mt-6 card bg-base-100 pointer-events-auto aboutHeader overflow-auto'>
+        <div className='rounded-lg mt-6 card bg-base-100 pointer-events-auto aboutHeader'>
           <div className='grid grid-cols-3 aboutmeHead mt-4'>
             <h2 className='text-3xl mt-0 font-bold h-16'>
             </h2>
@@ -19,7 +19,7 @@ function About() {
           <div className='picGrid'>
             <img src={FirstPic} alt='lecture1' className='aboutPic relative rounded-3xl m-auto mt-5'/>
           </div>
-          <div className='aboutmeText mx-4 mt-10 text-lg font-bold overflow-auto'>
+          <div className='aboutmeText mx-8 my-5 text-lg font-bold'>
             <p>
               Hey! My name is Jackson Leb. I am a Sophomore at the University of Michigan 
               working towards my Bachelor's degree in Science majoring in Computer Science 

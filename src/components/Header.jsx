@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaLinkedin, FaFile } from 'react-icons/fa'
+import { FaLinkedin, FaFile } from 'react-icons/fa'
 import Resume from '../assets/Leb, Jackson.pdf'
 
 
@@ -16,10 +16,7 @@ function Header() {
             Developer / Leader / Student
           </a>
         </h3>
-        <div className='hotButtons text-good-blue grid grid-cols-3 text-2xl inline w-1/4 pointer-events-auto'>
-          <a href='mailto: lebj@umich.edu'>
-            <FaEnvelope />
-          </a>
+        <div className='hotButtons text-good-blue grid grid-cols-2 text-2xl inline w-1/4 pointer-events-auto'>
           <a href='https://www.linkedin.com/in/jackson-leb/'>
             <FaLinkedin />
           </a>
