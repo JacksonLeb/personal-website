@@ -1,5 +1,5 @@
-/projects /https://jacksonleb.org/:splat 301
+/projects /projects 301
 
-/about /https://jacksonleb.org/:splat 301
+/about /about301
 
-/experience /https://jacksonleb.org/:splat 301
+/experience /experience 301
