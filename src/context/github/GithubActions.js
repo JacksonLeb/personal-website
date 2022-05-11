@@ -21,7 +21,7 @@ export const getUser = async () => {
 export const getUserRepos = async () => {
     const params = new URLSearchParams({
         sort: 'created',
-        per_page: 10,
+        per_page: 12,
     })
 
     const response = await fetch(`${GITHUB_URL}/users/JacksonLeb/repos?${params}`, {
