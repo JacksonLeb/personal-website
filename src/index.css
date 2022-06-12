@@ -22,6 +22,8 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .headerMain {
   display: inline;
@@ -48,6 +50,7 @@ h1:hover ~ h3{
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   border-radius: 50%;
 }
 
@@ -58,8 +61,14 @@ h1:hover ~ h3{
   position: absolute;
   left: 50%;
   top: 50%;
+
   transform: translate(-50%, -25%);
-  animation: aboutPlanetOrbit 15s infinite linear;   
+  -webkit-transform: translate(-50%, -25%);
+
+  animation: aboutPlanetOrbit 15s infinite linear;  
+  -webkit-animation: aboutPlanetOrbit 15s infinite linear;
+  
+  
   border: 1px solid #4B52ED;
   border-radius: 50%;
 }
@@ -67,7 +76,10 @@ h1:hover ~ h3{
 .aboutIcon {
   width: 40px;
   height: 40px;
+
   transform: translate(100%, 15%);
+  -webkit-transform: translate(100%, 15%);
+
   position: relative;
   text-align: center;
   color: #4B52ED;
@@ -83,8 +95,13 @@ h1:hover ~ h3{
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -33%);
+
+  transform: translate(-50%, -100%);
+  -webkit-transform: translate(-50%, -33%);
+
   animation: experiencePlanetOrbit 25s infinite linear;   
+  -webkit-animation: experiencePlanetOrbit 25s infinite linear;
+
   border: 1px solid #4B52ED;
   border-radius: 50%;
   text-align: center;
@@ -110,8 +127,13 @@ h1:hover ~ h3{
   position: absolute;
   left: 50%;
   top: 50%;
+
   transform: translate(-50%, -39%);
-  animation: projectsPlanetOrbit 35s infinite linear;   
+  -webkit-transform: translate(-50%, -39%);
+
+  animation: projectsPlanetOrbit 35s infinite linear;
+  -webkit-animation: projectsPlanetOrbit 35s infinite linear;
+
   border: 1px solid #4B52ED;
   border-radius: 50%;
   text-align: center;
@@ -135,18 +157,79 @@ h1:hover ~ h3{
 @keyframes aboutPlanetOrbit {
   0% {
     transform: translate(-50%, -25%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
   }
 }
+@-webkit-keyframes aboutPlanetOrbit {
+  0% {
+    transform: translate(-50%, -25%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
+  }
+}
+@-moz-keyframes aboutPlanetOrbit {
+  0% {
+    transform: translate(-50%, -25%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
+  }
+}
+@-ms-keyframes aboutPlanetOrbit {
+  0% {
+    transform: translate(-50%, -25%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
+  }
+}
+
+
 
 @keyframes experiencePlanetOrbit {
   0% {
     transform: translate(-50%, -33%) rotate(360deg);
+    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
   }
 }
+@-webkit-keyframes experiencePlanetOrbit {
+  0% {
+    transform: translate(-50%, -33%) rotate(360deg);
+    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
+  }
+}
+@-moz-keyframes experiencePlanetOrbit {
+  0% {
+    transform: translate(-50%, -33%) rotate(360deg);
+    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
+  }
+}
+@-ms-keyframes experiencePlanetOrbit {
+  0% {
+    transform: translate(-50%, -33%) rotate(360deg);
+    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
+  }
+}
+
+
 
 @keyframes projectsPlanetOrbit {
   0% {
     transform: translate(-50%, -39%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -39%) rotate(-360deg);
+  }
+}
+@-webkit-keyframes projectsPlanetOrbit {
+  0% {
+    transform: translate(-50%, -39%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -39%) rotate(-360deg);
+  }
+}
+@-moz-keyframes projectsPlanetOrbit {
+  0% {
+    transform: translate(-50%, -39%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -39%) rotate(-360deg);
+  }
+}
+@-ms-keyframes projectsPlanetOrbit {
+  0% {
+    transform: translate(-50%, -39%) rotate(-360deg);
+    -webkit-animation-transform: translate(-50%, -39%) rotate(-360deg);
   }
 }
 
