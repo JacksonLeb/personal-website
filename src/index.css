@@ -157,7 +157,6 @@ h1:hover ~ h3{
 @keyframes aboutPlanetOrbit {
   0% {
     transform: translate(-50%, -25%) rotate(-360deg);
-    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
   }
 }
 @-webkit-keyframes aboutPlanetOrbit {

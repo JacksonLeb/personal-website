@@ -7,7 +7,7 @@ import CourseItem from '../components/experience/CourseItem'
 function Experience({skills}) {
 
   const skillsArray = ["Python", "BeautifulSoup", "Selenium Webdriver", "HTML5", "CSS", "JavaScript", "C#", "C++", "Unity", "FileMaker", "Ultimaker Cura", "Autodesk Fusion 360", "SEO", "PyTorch", "React.js"]
-  const coursesArray = ["EECS 280: Programming and Data Structure", "EECS 203: Discrete Mathematis", "MATH 214: Applied Linear Algebra", "COGSCI 200: Introduction to Cognitive Science"]
+  const coursesArray = ["EECS 280: Programming and Data Structure", "EECS 203: Discrete Mathematics", "MATH 214: Applied Linear Algebra", "COGSCI 200: Introduction to Cognitive Science"]
 
   return (
     <div className='experiencePage pointer-events-none'>
