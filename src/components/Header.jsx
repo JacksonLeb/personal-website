@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaFile } from 'react-icons/fa'
-import Resume from '../assets/Leb, Jackson.pdf'
+import Resume from '../assets/JacksonLeb2024.pdf'
 
 
 function Header() {

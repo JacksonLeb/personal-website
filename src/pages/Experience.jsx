@@ -20,7 +20,7 @@ function Experience({skills}) {
             <h2 className='text-3xl mt-0 font-bold'>
               Positions
             </h2>
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 sm:grid-cols-2'>
               <PositionItem 
               position="Student Marketeer" 
               employer="Red Bull" 
