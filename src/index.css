@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
 .aboutPage {
   height: 100%;
 }
@@ -190,24 +196,6 @@ h1:hover ~ h3{
     transform: translate(-50%, -25%) rotate(0deg);
   }
 }
-@-webkit-keyframes aboutPlanetOrbit {
-  0% {
-    transform: translate(-50%, -25%) rotate(-360deg);
-    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
-  }
-}
-@-moz-keyframes aboutPlanetOrbit {
-  0% {
-    transform: translate(-50%, -25%) rotate(-360deg);
-    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
-  }
-}
-@-ms-keyframes aboutPlanetOrbit {
-  0% {
-    transform: translate(-50%, -25%) rotate(-360deg);
-    -webkit-animation-transform: translate(-50%, -25%) rotate(-360deg);
-  }
-}
 
 
 
@@ -231,24 +219,6 @@ h1:hover ~ h3{
     100% {
       transform: translate(-50%, -33%) rotate(0deg);
     }
-}
-@-webkit-keyframes experiencePlanetOrbit {
-  0% {
-    transform: translate(-50%, -33%) rotate(360deg);
-    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
-  }
-}
-@-moz-keyframes experiencePlanetOrbit {
-  0% {
-    transform: translate(-50%, -33%) rotate(360deg);
-    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
-  }
-}
-@-ms-keyframes experiencePlanetOrbit {
-  0% {
-    transform: translate(-50%, -33%) rotate(360deg);
-    -webkit-animation-transform: translate(-50%, -33%) rotate(360deg);
-  }
 }
 
 
