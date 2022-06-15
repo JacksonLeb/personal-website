@@ -346,6 +346,11 @@ z-index: 0;
   width: 200px;
 }
 
+.experiencePic {
+  height: 100%;
+  width: 300px;
+}
+
 .githubPic:hover {
   opacity: 0.75;
 }

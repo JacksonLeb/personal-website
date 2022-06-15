@@ -3,6 +3,7 @@ import Stars from '../components/Stars'
 import PositionItem from '../components/experience/PositionItem.jsx'
 import SkillItem from '../components/experience/SkillItem'
 import CourseItem from '../components/experience/CourseItem'
+import SecondPic from '../assets/secondLect.jpeg'
 
 function Experience({skills}) {
 
@@ -20,6 +21,9 @@ function Experience({skills}) {
             <h2 className='text-3xl mt-0 font-bold'>
               Positions
             </h2>
+            <div className='picGrid'>
+              <img src={SecondPic} alt='lecture2' className='experiencePic relative rounded-3xl m-auto mt-3'/>
+            </div>
             <div className='grid grid-cols-1 sm:grid-cols-2'>
               <PositionItem 
               position="Student Marketeer" 
