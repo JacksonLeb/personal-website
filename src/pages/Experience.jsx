@@ -24,7 +24,7 @@ function Experience({skills}) {
             <div className='picGrid'>
               <img src={SecondPic} alt='lecture2' className='experiencePic relative rounded-3xl m-auto mt-3'/>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2'>
+            <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2'>
               <PositionItem 
               position="Student Marketeer" 
               employer="Red Bull" 
