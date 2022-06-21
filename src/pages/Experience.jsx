@@ -7,7 +7,7 @@ import SecondPic from '../assets/secondLect.jpeg'
 
 function Experience({skills}) {
 
-  const skillsArray = ["Python", "BeautifulSoup", "Selenium Webdriver", "HTML5", "CSS", "JavaScript", "C#", "C++", "Unity", "FileMaker", "Ultimaker Cura", "Autodesk Fusion 360", "SEO", "PyTorch", "React.js"]
+  const skillsArray = ["Python", "BeautifulSoup", "Selenium Webdriver", "HTML5", "CSS", "JavaScript", "C#", "C++", "Unity", "FileMaker", "Ultimaker Cura", "Autodesk Fusion 360", "SEO", "PyTorch", "React.js", "Node.js", "MongoDB"]
   const coursesArray = ["EECS 280: Programming and Data Structure", "EECS 203: Discrete Mathematics", "MATH 214: Applied Linear Algebra", "COGSCI 200: Introduction to Cognitive Science"]
 
   return (
@@ -45,7 +45,7 @@ function Experience({skills}) {
               position="Service Digitization Intern" 
               employer="KeyBank" 
               time="Oct 2021 - Present" 
-              description="TBD"
+              description="Developed bots to automatically complete manual enterprise tasks and services. Digitized Mortgage and Loan Servicing processes."
               />
 
               <PositionItem 

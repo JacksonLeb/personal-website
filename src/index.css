@@ -91,6 +91,12 @@ h1:hover ~ h3{
   color: #4B52ED;
 }
 
+.aboutText {
+    position: relative;
+    color: white;
+    
+}
+
 .aboutIcon:hover {
   opacity: 0.5;
 }
