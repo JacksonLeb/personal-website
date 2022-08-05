@@ -86,13 +86,6 @@ function Experience({skills}) {
               -Provided instruction in Python machine learning and game development.
               -Coordinated with other Instructors and Managers to modify elements of the curriculum"
               />
-
-              <PositionItem 
-              position="Laboratory Assistant" 
-              employer="Orthopedic Research Labratories" 
-              time="Jun 2018 - Aug 2018" 
-              description=""
-              />
             </div>
           </div>
         </div>
