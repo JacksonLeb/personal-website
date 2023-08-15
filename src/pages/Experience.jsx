@@ -7,8 +7,8 @@ import SecondPic from '../assets/secondLect.jpeg'
 
 function Experience({skills}) {
 
-  const skillsArray = ["Python", "BeautifulSoup", "Selenium Webdriver", "HTML5", "CSS", "JavaScript", "C#", "C++", "TensorFlow", "Unity", "FileMakerPro", "Ultimaker Cura", "Autodesk Fusion 360", "SEO", "PyTorch", "React.js", "Node.js", "MongoDB"]
-  const coursesArray = ["EECS 376: Foundations of Computer Science", "EECS 281: Data Structures and Algorithms", "EECS 280: Programming and Data Structure", "EECS 203: Discrete Mathematics", "MATH 214: Applied Linear Algebra", "COGSCI 200: Introduction to Cognitive Science"]
+  const skillsArray = ["Python", "Java", "HTML5", "CSS", "JavaScript", "C++", "TensorFlow","PyTorch", "React.js", "Node.js", "MongoDB", "Distributed Systems"]
+  const coursesArray = ["EECS 485: Web Systems","EECS 445: Introduction to Machine Learning", "EECS 376: Foundations of Computer Science", "EECS 281: Data Structures and Algorithms", "EECS 280: Programming and Data Structure", "EECS 203: Discrete Mathematics", "MATH 214: Applied Linear Algebra", "COGSCI 200: Introduction to Cognitive Science"]
 
   return (
     <div className='experiencePage pointer-events-none'>
@@ -28,9 +28,11 @@ function Experience({skills}) {
 
               <PositionItem 
               position="Software Development Engineer Intern" 
-              employer="Amazon" 
-              time="May 2023 - " 
-              description="TBD!"
+              employer="Amazon Web Services " 
+              time="May 2023 - August 2023" 
+              description="- Engineered full-stack SDK applications to aid the development of pricing models.
+              - Designed and Implemented Document Comparison software to reduce memory and compute resources by a factor of 10.
+              - Presented technical implementation of Document Comparison software to over 50 Senior Engineers."
               />
 
 
@@ -113,10 +115,10 @@ function Experience({skills}) {
           </div>
           <div className='rounded-lg mt-2 card bg-base-100 pointer-events-auto skillsCoursework'>
             <div className='card-body'>
-              <h3 className='text-xl mt-0 font-bold'>
+              <h3 className='text-xl mt-0 font-bold overflow-auto'>
                 Coursework
               </h3>
-              <div className='courseCard'>
+              <div className='courseCard overflow-auto'>
                 {coursesArray.map((course) => (
                     <CourseItem title={course} />
                 ))} 
